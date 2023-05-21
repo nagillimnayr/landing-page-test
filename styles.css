@@ -1,13 +1,25 @@
 header {
+    margin: 0;
     background: #3f7cac;
     color: #F4EBE8; 
+    padding: 1% 4%;
 }
-section {
-    background-color: #F4EBE8;
-    color: #3c3744; 
-    padding: 2%;
+.row {
+    display: flex;
+}
+.flex1 {
+    flex: 1;
 }
 
-#section2 {
-    background-color: #747572;
+section {
+    background-color: #FFFFFF;
+    color: #3c3744; 
+    padding: 0% 4%;
+}
+
+.shadedBG {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #F2F3F4;
+    text-align: center;
 }
